@@ -111,7 +111,7 @@ Make sure that `git` is installed before running the next command. Clone the exa
 If pip installation fails, especially if you are on Windows, then try forcing the installation of wheels:
 
 	$ pip install --use-wheel -r requirements.txt 
-
+        $ pip install django==1.8 
 ## Running each chapter
 
 Each chapter is a seperate git branch with the naming convention `chapternn`; for e.g. `chapter04`. Once you checkout the chapter don't forget to read the README.md file (which changes) and run the migrate command if applicable:
